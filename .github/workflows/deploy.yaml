@@ -16,9 +16,6 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - name: Install Dependencies
         run: yarn
-      - name: Configuration
-        command: |
-          git config user.email "rchain"
-          git config user.name "rchain-community"
+      - uses: fregante/setup-git-user@v1
       - name: Deploy
         run: yarn deploy
