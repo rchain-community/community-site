@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[63],{Mgal:function(n,t,o){"use strict";o.d(t,"a",(function(){return c}));var r=o("q1tI"),u=o.n(r);function c(n){var t=n.href;return u.a.useEffect((function(){window.location=t}),[]),null}},jops:function(n,t,o){"use strict";o.r(t),o.d(t,"default",(function(){return e}));var r=o("q1tI"),u=o.n(r),c=o("Mgal");function e(){return u.a.createElement(c.a,{href:"https://docs.uniswap.org/protocol/v2/introduction"})}}}]);
+//# sourceMappingURL=component---src-pages-docs-v-2-02-core-concepts-index-tsx-5a1dff18c1650a19a311.js.map
