@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[36],{Mgal:function(n,t,o){"use strict";o.d(t,"a",(function(){return c}));var r=o("q1tI"),u=o.n(r);function c(n){var t=n.href;return u.a.useEffect((function(){window.location=t}),[]),null}},ZvE6:function(n,t,o){"use strict";o.r(t),o.d(t,"default",(function(){return e}));var r=o("q1tI"),u=o.n(r),c=o("Mgal");function e(){return u.a.createElement(c.a,{href:"https://docs.uniswap.org/protocol/v1/introduction"})}}}]);
-//# sourceMappingURL=component---src-pages-docs-v-1-01-frontend-integration-index-tsx-8304303699afa269851c.js.map

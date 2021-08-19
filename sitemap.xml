@@ -26,7 +26,6 @@
 <url> <loc>https://rchain-community.github.io/docs/v2/smart-contracts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/docs/v2/API/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/docs/v2/governance/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://rchain-community.github.io/blog/uniswap-history/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/blog/sybil/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/blog/year-in-review/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/blog/uniswap-v3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

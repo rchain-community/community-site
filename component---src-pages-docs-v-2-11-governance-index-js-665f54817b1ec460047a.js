@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[117],{BvyB:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return a}));var r=t("q1tI"),o=t.n(r),w=t("YwZP");function a(n){var e=n.path;return o.a.createElement(w.Redirect,{from:e,to:e+"overview/",noThrow:!0})}}}]);
+//# sourceMappingURL=component---src-pages-docs-v-2-11-governance-index-js-665f54817b1ec460047a.js.map

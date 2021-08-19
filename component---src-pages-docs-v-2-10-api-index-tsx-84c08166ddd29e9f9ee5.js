@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[111],{Mgal:function(n,t,e){"use strict";e.d(t,"a",(function(){return u}));var r=e("q1tI"),o=e.n(r);function u(n){var t=n.href;return o.a.useEffect((function(){window.location=t}),[]),null}},MoCD:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return c}));var r=e("q1tI"),o=e.n(r),u=e("Mgal");function c(){return o.a.createElement(u.a,{href:"https://docs.uniswap.org/protocol/V2/reference/API/overview"})}}}]);
-//# sourceMappingURL=component---src-pages-docs-v-2-10-api-index-tsx-84c08166ddd29e9f9ee5.js.map
