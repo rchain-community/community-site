@@ -57,6 +57,7 @@
     "gatsby-remark-twitter-cards": "^0.2.0",
     "gatsby-source-filesystem": "^2.3.18",
     "gatsby-transformer-sharp": "^2.5.3",
+    "gh-pages": "^3.2.3",
     "github-slugger": "^1.2.1",
     "graphql-tag": "^2.10.3",
     "isomorphic-fetch": "^2.2.1",
@@ -111,7 +112,8 @@
     "post-build": "cp ./node_modules/@uniswap/token-lists/src/tokenlist.schema.json public/",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "bugs": {
     "url": "https://github.com/Uniswap/uniswap-org/issues"

@@ -1,4 +1,4 @@
-name: Gatsby Publish
+name: Deploy
 
 on:
   push:
@@ -6,10 +6,16 @@ on:
       - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Setup Node
+        uses: actions/setup-node@v2-beta
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          node-version: '12'
+      - name: Install Dependencies
+        run: yarn
+      - name: Deploy
+        run: yarn deploy
