@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+      - name: Invalidate cache
+        if: ${{ github.event.inputs.invalidate_cache != 'false' && steps.cache-libs.outputs.cache-hit == 'true' }}
+        run: |
+          rm -rf .cache
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
