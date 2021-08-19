@@ -139,8 +139,8 @@ const ProtocolData = () => {
   const { data: globalData } = useQuery(GLOBAL_QUERY, { pollInterval: 10000, client: client })
 
   // hardcode at 1B in case of data failure
-  // const volume = globalData ? globalData?.uniswapFactory?.totalVolumeUSD : 100000000000
-  const transactions = globalData ? globalData?.uniswapFactory?.txCount : 29000000
+  // const volume = globalData ? globalData?.rchainFactory?.totalVolumeUSD : 100000000000
+  const transactions = globalData ? globalData?.rchainFactory?.txCount : 29000000
 
   // const formattedVol = new Intl.NumberFormat('en-US', {
   //   style: 'currency',

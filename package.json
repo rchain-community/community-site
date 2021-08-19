@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/org",
+  "name": "@rchain/org",
   "private": true,
   "description": "Uniswap homepage and knowledgebase",
   "version": "0.1.0",
@@ -113,10 +113,6 @@
     "clean": "gatsby clean",
     "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
     "deploy": "gatsby-plugin-s3 deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-org"
   },
   "bugs": {
     "url": "https://github.com/Uniswap/uniswap-org/issues"

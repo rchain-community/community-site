@@ -6,12 +6,12 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Uniswap`,
+    title: `Rchain`,
     description: `Automated liquidity protocol on Ethereum`,
-    author: `@Uniswap`,
+    author: `@Rchain`,
     menulinks: menu,
-    siteUrl: `https://uniswap.org`,
-    repository: `https://github.com/Uniswap/uniswap-org`,
+    siteUrl: `https://rchain.org`,
+    repository: `https://github.com/Rchain/rchain-org`,
     commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
   },
   plugins: [
@@ -20,14 +20,14 @@ module.exports = {
       options: {
         bucketName: process.env.AWS_S3_BUCKET || 'NOT_SPECIFIED',
         protocol: 'https',
-        hostname: 'uniswap.org',
+        hostname: 'rchain.org',
         acl: null
       }
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://uniswap.org`
+        siteUrl: `https://rchain.org`
       }
     },
     {
@@ -108,9 +108,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-twitter-cards`,
             options: {
-              title: 'Uniswap', // website title
+              title: 'Rchain', // website title
               separator: '|', // default
-              author: '@Uniswap',
+              author: '@Rchain',
               background: require.resolve('./static/images/twitter_card_bg.jpg'), // path to 1200x630px file or hex code, defaults to black (#000000)
               fontColor: '#FF3093', // defaults to white (#ffffff)
               fontStyle: 'sans-serif', // default
@@ -222,7 +222,7 @@ module.exports = {
             }
             `,
             output: '/rss.xml',
-            title: 'Uniswap Blog RSS Feed'
+            title: 'Rchain Blog RSS Feed'
           }
         ]
       }
@@ -232,7 +232,7 @@ module.exports = {
       resolve: `gatsby-plugin-algolia-docsearch-appid`,
       options: {
         apiKey: '8962240e69e6d23a88432f501c115470',
-        indexName: 'uniswap_v2_docs',
+        indexName: 'rchain_v2_docs',
         appId: 'VZ0CVS8XCW',
         inputSelector: 'blank' // use dummy selector to avoid double render
       }

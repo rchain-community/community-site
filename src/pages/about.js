@@ -154,7 +154,7 @@ export const ETH_PRICE = block => {
 
 const APOLLO_QUERY = gql`
   {
-    uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f") {
+    rchainFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f") {
       totalVolumeUSD
       totalLiquidityUSD
       pairCount
@@ -168,7 +168,7 @@ const APOLLO_QUERY = gql`
 
 export const UNISWAP_GLOBALS_24HOURS_AGO_QUERY = block => {
   let queryString = `
-  query uniswapFactory {
+  query rchainFactory {
     uniswapFactory(id: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f", block: { number: ${block} }) {
       totalVolumeUSD
       totalLiquidityUSD
@@ -285,8 +285,8 @@ const About = props => {
           </Numbers>
           <StyledSectionFlex id="about" style={{ flexDirection: 'column' }}>
             <p>
-              Uniswap empowers developers, liquidity providers and traders to participate in a financial marketplace
-              that is open and accessible to all.
+              Rchain empowers developers, liquidity providers and traders to participate in a financial marketplace that
+              is open and accessible to all.
             </p>
             <p>We are committed to open source software and building on the decentralized web.</p>
 
@@ -307,9 +307,9 @@ const About = props => {
             <p>We are looking for talented people to join our team!</p>
 
             <span>
-              <a href="https://jobs.lever.co/Uniswap">
+              <a href="https://jobs.lever.co/Rchain">
                 {' '}
-                <h3>Full list of roles available at Uniswap Labs</h3>
+                <h3>Full list of roles available at Rchain Labs</h3>
               </a>
             </span>
           </StyledSectionFlex>
@@ -321,7 +321,7 @@ const About = props => {
             </p>
 
             <p>
-              We encourage anyone facing issues with their wallet, transaction or Uniswap related question to join our
+              We encourage anyone facing issues with their wallet, transaction or Rchain related question to join our
               active community discord or explore the{' '}
               <ExternalLink href={'https://help.uniswap.org'}>help & tutorial</ExternalLink> site.
             </p>
@@ -330,10 +330,10 @@ const About = props => {
               <ExternalLink href={'https://discord.gg/FCfyBSbCU5'}>
                 Discord <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
-              <ExternalLink href={'https://twitter.com/Uniswap'}>
+              <ExternalLink href={'https://twitter.com/Rchain'}>
                 Twitter <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
-              <ExternalLink href={'https://www.reddit.com/r/Uniswap'}>
+              <ExternalLink href={'https://www.reddit.com/r/Rchain'}>
                 Reddit <span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
             </div>
@@ -342,7 +342,7 @@ const About = props => {
           <StyledSectionFlex id="brand" style={{ flexDirection: 'column' }}>
             <h2 style={{ width: '100%' }}>Brand Assets</h2>
             <p>
-              Download the logo and other brand assets samples <a href="/Uniswap_brand_assets.zip">here</a>.
+              Download the logo and other brand assets samples <a href="/Rchain_brand_assets.zip">here</a>.
             </p>
           </StyledSectionFlex>
         </span>

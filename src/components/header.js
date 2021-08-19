@@ -272,7 +272,7 @@ const Header = props => {
               color: 'white'
             }}
             target="_blank"
-            href="https://app.uniswap.org/"
+            href="https://app.rchain.org/"
           >
             Launch App
           </StyledTradeLink>

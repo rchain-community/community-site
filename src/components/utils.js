@@ -8,7 +8,7 @@ import { Link } from 'gatsby'
 
 export const CardBGImage = styled.span`
   mix-blend-mode: ${({ isDark }) => (isDark ? 'overlay' : 'lighten')};
-  background: url(${uBanner});
+
   width: 55vw;
   max-width: 480px;
   height: 100%;
@@ -30,7 +30,7 @@ export const CardBGImage = styled.span`
 
 export const CardGlimmerImage = styled.span`
   mix-blend-mode: ${({ isDark }) => (isDark ? 'overlay' : 'lighten')};
-  background: url(${gImage});
+
   width: 100%;
   height: 100%;
   opacity: 0.5;

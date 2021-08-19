@@ -54,7 +54,6 @@ const StyledTitle = styled.div`
   justify-content: flex-end;
   will-change: transform;
   align-items: flex-start;
-  height: 80vh;
   margin-bottom: 4rem;
 `
 
@@ -309,12 +308,11 @@ const IndexPage = props => {
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle>
-            <span style={{ fontWeight: 200 }}>UNISWAP</span>
-            <StyledPinkGlimmer /> PROTOCOL
+            <span style={{ fontWeight: 200 }}>RCHAIN </span>
+            <span>Network</span>
           </StyledBodyTitle>
-          <StyledBodySubTitle>
-            {'Swap, earn, and build on the leading decentralized crypto trading protocol.'}
-          </StyledBodySubTitle>
+
+          <StyledBodySubTitle>{'One truely scalable blockchain network to rule them all'}</StyledBodySubTitle>
 
           <StyledTradeLink
             style={{
@@ -322,15 +320,15 @@ const IndexPage = props => {
               color: 'white'
             }}
             target="_blank"
-            href="https://app.uniswap.org/"
+            href="https://app.rchain.org/"
           >
             Launch App
           </StyledTradeLink>
           <StyledSocialRow>
-            <a href="https://twitter.com/uniswap/">
+            <a href="https://twitter.com/rchain/">
               <StyledTwitter />
             </a>
-            <a href="https://github.com/Uniswap/">
+            <a href="https://github.com/Rchain/">
               <StyledGithub />
             </a>
             <a href="https://discord.gg/FCfyBSbCU5">
@@ -341,7 +339,7 @@ const IndexPage = props => {
         <EcosystemSection data={data} props={props} />
         <HideSmall>
           <StyledSectionHeader>
-            <a href="https://info.uniswap.org/">{'PROTOCOL ANALYTICS →'}</a>
+            <a href="https://info.rchain.org/">{'PROTOCOL ANALYTICS →'}</a>
           </StyledSectionHeader>
           <div
             style={{
@@ -461,7 +459,7 @@ const EcosystemSection = () => {
     <StyledSection>
       <StyledItemRow>
         <span>
-          <StyledSectionHeader>{'UNISWAP ECOSYSTEM →'}</StyledSectionHeader>
+          <StyledSectionHeader>{'RCHAIN ECOSYSTEM →'}</StyledSectionHeader>
           <StyledSectionTitle>A growing network of DeFi Apps.</StyledSectionTitle>
           <StyledBodySubText style={{ marginRight: '48px' }}>
             Developers, traders, and liquidity providers participate together in a financial marketplace that is open
@@ -492,7 +490,7 @@ const DeveloperSection = props => {
               protocol documentation, a Javascript SDK, and fully open source code.
             </StyledBodySubTitle>
 
-            <Button href="https://docs.uniswap.org/">
+            <Button href="https://docs.rchain.org/">
               <p style={{ margin: 0 }}>
                 {' '}
                 <HideSmall>Developer</HideSmall> Documentation ↗
@@ -501,10 +499,10 @@ const DeveloperSection = props => {
           </DeveloperCard>
           <GrantsCard>
             <StyledProductImage fadeIn={false} fluid={props.data.grants.childImageSharp.fluid} />
-            <StyledBodySubTitle>Apply for the Uniswap Developer Grants Program</StyledBodySubTitle>
+            <StyledBodySubTitle>Apply for the Rchain Developer Grants Program</StyledBodySubTitle>
             <p>
-              Get paid to build the future of finance. Uniswap Governance offers grant funding for people building apps,
-              tools, and activities on the Uniswap Protocol.
+              Get paid to build the future of finance. Rchain Governance offers grant funding for people building apps,
+              tools, and activities on the Rchain Protocol.
             </p>
             <Button href="https://unigrants.org/" outlined>
               <p style={{ margin: 0 }}>Learn more ↗</p>
@@ -520,24 +518,23 @@ const DeveloperSection = props => {
             <span>
               <StyledSectionTitle>Governed by the community.</StyledSectionTitle>
               <StyledBodySubTitle style={{ fontSize: '20px' }}>
-                The Uniswap Protocol is governed by a decentralized community of UNI token holders and their delegates
+                The Rchain Protocol is governed by a decentralized community of UNI token holders and their delegates
                 who propose and vote on upgrades to the protocol.
               </StyledBodySubTitle>
             </span>
 
-            <Button href="https://docs.uniswap.org/protocol/concepts/governance/guide-to-voting" outlined>
+            <Button href="https://docs.rchain.org/protocol/concepts/governance/guide-to-voting" outlined>
               <p style={{ margin: 0 }}>Read more </p>
             </Button>
           </GovernanceCard>
           <StyledItemColumn style={{ display: 'flex', flexDirection: 'column' }}>
-            <Button style={{ borderRadius: '20px' }} href="https://gov.uniswap.org" outlined>
+            <Button style={{ borderRadius: '20px' }} href="https://gov.rchain.org" outlined>
               <div style={{ padding: '1rem' }}>
                 <StyledBodySubTitle style={{ marginBottom: '0.25rem' }}>
                   Governance Forum <span style={{ fontSize: '16px' }}>↗</span>
                 </StyledBodySubTitle>
                 <p style={{ textAlign: 'left', margin: '0', opacity: '0.6', fontSize: '16px', fontWeight: 400 }}>
-                  Participate by proposing upgrades and discussing the future of the protocol with the Uniswap
-                  community.
+                  Participate by proposing upgrades and discussing the future of the protocol with the Rchain community.
                 </p>
               </div>
             </Button>
@@ -552,13 +549,13 @@ const DeveloperSection = props => {
                 </p>
               </div>
             </Button>
-            <Button style={{ width: '100%', borderRadius: '20px' }} href="https://app.uniswap.org/#/vote" outlined>
+            <Button style={{ width: '100%', borderRadius: '20px' }} href="https://app.rchain.org/#/vote" outlined>
               <div style={{ padding: '1rem' }}>
                 <StyledBodySubTitle style={{ marginBottom: '0.25rem' }}>
                   Governance Portal <span style={{ fontSize: '16px' }}>↗</span>
                 </StyledBodySubTitle>
                 <p style={{ textAlign: 'left', margin: '0', opacity: '0.6', fontSize: '16px', fontWeight: 400 }}>
-                  Vote on official Uniswap governance proposals and view past proposals.{' '}
+                  Vote on official Rchain governance proposals and view past proposals.{' '}
                 </p>
               </div>
             </Button>
