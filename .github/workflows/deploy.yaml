@@ -16,8 +16,9 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - name: Install Dependencies
         run: yarn
-      - git config --global -l
-      - git config --global user.email circleci@circleci
-      - git config --global user.name rchain-community
+      - name: Git config
+        run: git config --global -l
+        run: git config --global user.email rchain@rchain.com
+        run: git config --global user.name rchain-community
       - name: Deploy
         run: yarn deploy
