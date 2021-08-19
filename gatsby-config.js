@@ -7,11 +7,11 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Rchain`,
-    pathPrefix: '/communty-site',
+    pathPrefix: '/communty-site/',
     description: `Automated liquidity protocol on Ethereum`,
     author: `@Rchain`,
     menulinks: menu,
-    siteUrl: `https://rchain.org`,
+    siteUrl: `https://rchain-community.github.io`,
     repository: `https://github.com/Rchain/rchain-org`,
     commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
   },
