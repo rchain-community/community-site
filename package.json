@@ -113,8 +113,5 @@
     "clean": "gatsby clean",
     "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-  },
-  "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-org/issues"
   }
 }
