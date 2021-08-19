@@ -5,9 +5,9 @@ require('dotenv').config({
 })
 
 module.exports = {
+  pathPrefix: '/community-site/',
   siteMetadata: {
     title: `Rchain`,
-    pathPrefix: '/communty-site/',
     description: `Automated liquidity protocol on Ethereum`,
     author: `@Rchain`,
     menulinks: menu,
@@ -35,6 +35,13 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/src/pages/blog/`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `docs`,
+        path: `${__dirname}/src/pages/docs/`
       }
     },
     {
