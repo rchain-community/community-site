@@ -90,7 +90,7 @@ const StyledPageTitle = styled.div`
 const Docs = props => {
   const data = useStaticQuery(graphql`
     {
-      allMdx(filter: { fileAbsolutePath: { regex: "/faq/" } }) {
+      allMdx(filter: { fileAbsolutePath: { regex: "/faq/" } }, sort: {}) {
         edges {
           node {
             headings {
