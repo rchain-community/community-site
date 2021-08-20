@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
 
 import styled from 'styled-components'
+import { withPrefix } from 'gatsby'
 
 export function useToggle(initialState = false) {
   const [state, setState] = useState(initialState)
@@ -204,7 +205,7 @@ export default function Menu(props) {
             return (
               <StyledMenuItem tabindex={index} key={index}>
                 {item.link.split('.').slice(-1)[0] === 'pdf' ? (
-                  <StyledExternalLink href={item.link} target="_blank" rel="noopener noreferrer">
+                  <StyledExternalLink href={withPrefix(item.link)} target="_blank" rel="noopener noreferrer">
                     <StyledTitle>{item.name}</StyledTitle>
                   </StyledExternalLink>
                 ) : (

@@ -8,7 +8,7 @@ import utc from 'dayjs/plugin/utc'
 import { useQuery } from '@apollo/react-hooks'
 import { client, blockClient } from '../apollo/client'
 
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 
 import Layout from '../layouts'
 import SEO from '../components/seo'
@@ -291,7 +291,7 @@ const About = props => {
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', margin: 0 }}>
-              <InternalLink to="/blog/uni">REV token</InternalLink>
+              <InternalLink to={withPrefix('/blog/uni')}>REV token</InternalLink>
               <InternalLink to="/whitepaper.pdf">
                 V2 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
               </InternalLink>
