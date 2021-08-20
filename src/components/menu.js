@@ -209,7 +209,7 @@ export default function Menu(props) {
                     <StyledTitle>{item.name}</StyledTitle>
                   </StyledExternalLink>
                 ) : (
-                  <StyledExternalLink href={item.link}>
+                  <StyledExternalLink href={withPrefix(item.link)}>
                     <StyledTitle>{item.name}</StyledTitle>
                     {item.description && <StyledDescription>{item.description}</StyledDescription>}
                   </StyledExternalLink>
