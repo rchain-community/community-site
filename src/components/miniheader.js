@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Search from './algoliaSearch'
-import Uni from '../images/rchain-header.png'
+import Uni from '../images/uni.inline.svg'
 import { Sun, Moon, Home } from 'react-feather'
 
 import MenuIcon from '../images/menu.inline.svg'

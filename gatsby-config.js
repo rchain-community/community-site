@@ -5,7 +5,6 @@ require('dotenv').config({
 })
 
 module.exports = {
-  pathPrefix: '/community-site/',
   siteMetadata: {
     title: `Rchain`,
     pathPrefix: '/community-site/',
