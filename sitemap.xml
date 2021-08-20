@@ -37,8 +37,8 @@
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/data/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/computation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/format/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/transact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/orchestration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/transact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/constants/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/SDK/types/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v1/smart-contracts/factory/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
