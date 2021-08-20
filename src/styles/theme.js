@@ -89,6 +89,7 @@ export const theme = darkMode => ({
 
     green1: '#E6F3EC',
     green2: '#27AE60',
+    green3: '#0cf507',
 
     pink1: darkMode ? '#2F80ED' : '#FF007A',
     pink2: '#FF8EC4',

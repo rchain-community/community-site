@@ -13,7 +13,7 @@ const StyledBG = styled.div`
   height: -webkit-fill-available;
   opacity: 1;
   background: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${theme.colors.link} 0%, ${theme.backgroundColor} 100%)`};
+    `radial-gradient(70% 50% at 50% 50%, ${theme.colors.green3} 0%, ${theme.backgroundColor} 100%)`};
   opacity: 0.15;
   /* z-index: 9999; */
   user-select: none;
