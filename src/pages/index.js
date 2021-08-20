@@ -312,7 +312,7 @@ const IndexPage = props => {
             <span>Network</span>
           </StyledBodyTitle>
 
-          <StyledBodySubTitle>{'One truely scalable blockchain network to rule them all'}</StyledBodySubTitle>
+          <StyledBodySubTitle>{'One truely scalable blockchain network to rule them all.'}</StyledBodySubTitle>
 
           <StyledTradeLink
             style={{
