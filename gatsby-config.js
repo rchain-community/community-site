@@ -5,9 +5,9 @@ require('dotenv').config({
 })
 
 module.exports = {
+  pathPrefix: '/communty-site/',
   siteMetadata: {
     title: `Rchain`,
-    pathPrefix: '/communty-site/',
     description: `Automated liquidity protocol on Ethereum`,
     author: `@Rchain`,
     menulinks: menu,
