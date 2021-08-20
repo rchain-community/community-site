@@ -249,7 +249,7 @@ const Header = props => {
             textDecoration: `none`
           }}
         >
-          <StyledUni />
+          {/*<StyledUni />*/}
         </StyledHomeLink>
       </StyledNavTitleWrapper>
       <MenuToggle ref={button} open={isMenuOpen} onClick={() => updateIsMenuOpen(!isMenuOpen)}>

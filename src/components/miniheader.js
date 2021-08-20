@@ -219,7 +219,7 @@ const Header = props => {
               textDecoration: `none`
             }}
           >
-            <StyledUni />
+            {/*<StyledUni />*/}
           </StyledHomeLink>
           {props.path && props.path !== '/' && props.path !== '' && (
             <>
