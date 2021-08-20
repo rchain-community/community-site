@@ -1,7 +1,7 @@
 {
   "name": "@rchain/org",
   "private": true,
-  "description": "Rchain homepage and knowledgebase",
+  "description": "Uniswap homepage and knowledgebase",
   "version": "0.1.0",
   "author": "Callil Capuozzo <callil.capuozzo@gmail.com>",
   "engines": {
@@ -108,8 +108,8 @@
     "dev": "gatsby develop ",
     "devlocal": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
-    "build": "gatsby build --prefix-paths ",
-    "serve": "gatsby serve --prefix-paths ",
+    "build": "gatsby build ",
+    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write \"src/**/*.{js,jsx,md,mdx}\"",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
