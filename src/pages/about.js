@@ -291,7 +291,7 @@ const About = props => {
             <p>We are committed to open source software and building on the decentralized web.</p>
 
             <div style={{ display: 'flex', width: '100%', margin: 0 }}>
-              <InternalLink to="/blog/uni">UNI token</InternalLink>
+              <InternalLink to="/blog/uni">REV token</InternalLink>
               <InternalLink to="/whitepaper.pdf">
                 V2 Whitepaper <span style={{ fontSize: '11px' }}>↗</span>
               </InternalLink>
