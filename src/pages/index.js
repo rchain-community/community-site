@@ -518,7 +518,7 @@ const DeveloperSection = props => {
             <span>
               <StyledSectionTitle>Governed by the community.</StyledSectionTitle>
               <StyledBodySubTitle style={{ fontSize: '20px' }}>
-                The Rchain Protocol is governed by a decentralized community of UNI token holders and their delegates
+                The Rchain Protocol is governed by a decentralized community of Rev token holders and their delegates
                 who propose and vote on upgrades to the protocol.
               </StyledBodySubTitle>
             </span>
