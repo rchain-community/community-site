@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{"3yiZ":function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return i}));var r=e("q1tI"),o=e.n(r),a=e("YwZP");function i(n){var t=n.path;return o.a.createElement(a.Redirect,{from:t,to:"/whitepaper.pdf",noThrow:!0})}}}]);
+//# sourceMappingURL=component---src-pages-docs-v-2-01-protocol-overview-reference-whitepaper-js-f3c53a53081ba2178382.js.map

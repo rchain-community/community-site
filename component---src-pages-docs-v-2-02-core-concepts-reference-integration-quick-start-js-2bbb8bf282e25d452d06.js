@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{VNbf:function(t,n,r){"use strict";r.r(n),r.d(n,"default",(function(){return c}));var o=r("q1tI"),e=r.n(o),a=r("YwZP");function c(t){var n=t.path;return e.a.createElement(a.Redirect,{from:n,to:"/docs/v2/smart-contract-integration/quick-start",noThrow:!0})}}}]);
+//# sourceMappingURL=component---src-pages-docs-v-2-02-core-concepts-reference-integration-quick-start-js-2bbb8bf282e25d452d06.js.map
