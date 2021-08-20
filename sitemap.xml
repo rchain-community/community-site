@@ -55,8 +55,8 @@
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/fees/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/understanding-returns/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/math/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/security/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/math/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/advanced-topics/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/javascript-SDK/quick-start/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/javascript-SDK/fetching-data/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -95,8 +95,8 @@
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/process/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/guide-to-voting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/glossary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/adversarial-circumstances/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/governance-reference/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rchain-community.github.io/community-site/docs/v2/governance/adversarial-circumstances/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/bug-bounty/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/disclaimer/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rchain-community.github.io/community-site/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
